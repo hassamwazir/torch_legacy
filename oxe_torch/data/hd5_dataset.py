@@ -268,3 +268,4 @@ class HD5Dataset(IterableDataset):
             'action': action,
             'language_instruction': self.file['observation/language_instruction'][idx][0].decode(),
         }
+        
